@@ -171,7 +171,7 @@ color: #04AADD;
 
 .iphone{
   position: absolute;
-  width: 80%;
+  width: 30%;
   /* z-index: -2; */
 }
 
@@ -187,7 +187,7 @@ z-index: -2;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 85%;
   margin: auto;
   margin-top: 10rem;
   margin-bottom: 6rem;
@@ -195,7 +195,7 @@ z-index: -2;
 }
 
 .scheduleText {
-  width: 45%;
+  width: 40%;
 }
 
 .scheduleText h3{
@@ -210,13 +210,31 @@ width: 100%;
 
 .scheduleText p{
 font-family: DM Sans;
-font-size: 16px;
+font-size: 14px;
 font-weight: 400;
 line-height: 32px;
 letter-spacing: 0.30000001192092896px;
 color: #90A3B4;
 width: 100%;
 }
+
+.schedule li{
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.83px;
+letter-spacing: 0.30000001192092896px;
+/* text-align:left; */
+color: #90A3B4;
+margin-top: 1.5rem;
+
+}
+
+
+
+/* .features img{
+  width: 35%;
+} */
 
 .scheduleText a{
 width: 243px;
@@ -231,7 +249,7 @@ width: 100%;
 }
 
 .scheduleImage{
-  width: 45%;
+  width: 60%;
 }
 
 .hashtag{
@@ -416,6 +434,11 @@ line-height: 32px;
 color: #ffffff;
 padding: 1rem 0;
 }
+
+.brandRight{
+  width: 20%;
+}
+
 .brandRight button{
  font-family: DM Sans;
   font-size: 14px;
@@ -542,7 +565,7 @@ margin: auto;
   width: 30%;
 }
 li{
-  list-style-type: none;
+  /* list-style-type: none; */
   font-family: DM Sans;
 font-size: 16px;
 font-weight: 400;
@@ -596,6 +619,7 @@ margin-top: 1rem;
 
 
 @media ( max-width: 1024px){
+ 
   .textSide h2 {
   font-size: 44px;
   width: 100%;
@@ -630,6 +654,32 @@ width: 50%;
 .postText h3{
 width: 100%;
 }
+
+
+.scheduleText h3{
+font-size: 28px;
+}
+
+.scheduleText p{
+font-size: 13px;
+width: 105%;
+}
+
+.schedule li{
+font-size: 13px;
+margin-top: 1rem;
+}
+
+.scheduleImage{
+width: 85vh;
+}
+  
+  .topHashtag p{
+  font-size: 14px;
+  width: 55%;
+  margin-top: 1.5rem;
+ }
+
 .cardWrap{
 gap: 1rem;
 height: 70vh;
@@ -637,6 +687,13 @@ height: 70vh;
 
 .card{
 height: 330px;
+}
+.card h5{
+  font-size: 16px;
+}
+
+.card p{
+  font-size: 14px;
 }
 
 .growthLeft h3{
@@ -647,6 +704,22 @@ width: 90%;
 .growthLeft p{
   font-size: 16px;
   width: 90%;
+}
+.growthRight{
+  margin-left: 4rem;
+  width: 100%;
+}
+.growthText p{
+font-size: 16px;
+width: 90%;
+}
+
+.hartName h5{
+font-size: 20px;
+}
+
+.hartName p{
+font-size: 15px;
 }
 
 .brandRight button{
@@ -663,12 +736,12 @@ font-size: 15px;
 }
 
 .footLeft p{
-font-size: 13px;
-}
+font-size: 13px}
 
 .copyright p {
 font-size: 13px;
 }
+
 }
 
 @media screen and ( max-width: 768px){
@@ -713,6 +786,31 @@ nav {
     padding: 1rem 0rem;
     }
 
+/* dhhdjhdhdhi */
+
+.scheduleText h3{
+font-size: 20px;
+line-height: 36px;
+width: 100%;
+  }
+  
+  .scheduleText p{
+  font-size: 13px;
+  line-height: 26px;
+  width: 100%;
+  }
+  
+  .schedule li{
+  font-size: 13px;
+  margin-top: 0.5rem;
+  }
+  
+  .scheduleImage{
+  width: 50%;
+  }
+  /* fuheiuhfijei */
+
+
     .topHashtag h2{
       font-size: 28px;
       line-height: 52px;
@@ -745,7 +843,64 @@ nav {
   width: 40%;
 }
 
+/* eyeejejdjdj */
 
+.growthLeft h3{
+  font-size: 24px;
+  line-height: 45px;
+  width: 100%;
+  }
+  
+  .growthLeft p{
+    font-size: 12px;
+    width: 115%;
+    line-height: 35px;
+    margin-top: 1.5rem;
+  }
+
+  .rightImages{
+    gap: 1rem;
+    width: 60%;
+        
+  }
+  /* .growthRight{
+    margin-left: 1rem;
+    width: 100%;
+  } */
+  .growthText p{
+  font-size: 11px;
+  /* width: 100%; */
+  line-height: 25px;
+  }
+  
+  .hart{
+    margin-top: -2rem;
+    gap:0.5rem;
+  }
+  .hartName h5{
+  font-size: 15px;
+  }
+  
+  .hartName p{
+  font-size: 9.5px;
+  width: 100%;
+  }
+
+  .brandLeft h3{
+  font-size: 30px;
+  line-height: 39px;
+  width: 60%;
+  }
+
+  .brandRight{ 
+    width: 41%;
+  }
+  
+  .brandRight button{
+  font-size: 12px;
+  width: 110%;
+  font-size: 12px;
+   }
 
 
 .footRight {
@@ -765,9 +920,8 @@ font-size: 14px;
 font-size: 12px;
 }
 
+ }
 
-
-    }
 
 
     @media (max-width: 425px){
@@ -793,6 +947,18 @@ font-size: 12px;
 
 .imageSide{
   width: 100%;
+}
+
+.sponsors{
+  width: 30%;
+  margin: 3rem auto;
+  display: block;
+ /* margin-top: 3rem;
+ margin-bottom: 3rem; */
+ }
+
+.sponsors img{
+  padding-bottom: 2rem;
 }
 
 .post{
@@ -826,21 +992,40 @@ font-weight: 400;
 line-height: 32px;
 }
 
-.sponsors{
-  width: 30%;
-  margin: 3rem auto;
-  display: block;
- /* margin-top: 3rem;
- margin-bottom: 3rem; */
- }
+/* hdhdjdksksmm */
 
-.sponsors img{
-  padding-bottom: 2rem;
+
+.schedule{
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+  margin-top: 1.5rem;
 }
+
+.scheduleText h3{
+  font-size: 30px;
+  line-height:48px;
+  width: 100%;
+  }
+
+.scheduleText {
+  width: 100%;
+}
+
+
+.scheduleText p{
+font-size: 12px;
+}
+
+.scheduleImage{
+  width: 100%;
+}
+
 
 .topHashtag p{
   font-size: 14px;
-  width: 70%;
+  width: 100%;
+  margin-bottom: 2rem;
   }
 
   .cardWrap{
@@ -887,19 +1072,19 @@ card h5{
 }
 
 .growthLeft h3{
-font-size: 36px;
+font-size: 30px;
 width: 100%;
 }
 
 .growthLeft p{
-font-size: 16px;
+font-size: 14px;
 font-weight: 400;
 line-height: 26px;
 }
 
 .growthText p{
-font-size: 16px;
-width: 100%;
+font-size: 14px;
+width: 70%;
 }
 
 .hart{
@@ -907,6 +1092,7 @@ width: 100%;
   gap: 1rem;
   align-items: center;
   margin-left: 3rem;
+  margin-top: 0.5rem;
 }
 
 .hartImage {
@@ -921,9 +1107,7 @@ width: 100%;
  flex-direction: column;
   margin: auto;
   width: 85%;
- 
   padding: 3rem;
-  
   margin-bottom: 5rem;
 }
 
@@ -943,9 +1127,20 @@ line-height: 32px;
 color: #ffffff;
 padding: 1rem 0rem;
 }
+
 .customers{
  margin: 2rem 0;
 }
+
+.brandRight{
+width: 60%;
+}
+
+.brandRight button{
+  font-size: 12px;
+  width: 100%;
+  font-size: 10px;
+   }
 
 
 
@@ -989,7 +1184,186 @@ width: 80%;
 font-size: 16px;
 }
 
+    }
 
+
+    @media (max-width: 375px) {
+
+
+    
+      
+      
+      
+      
+   
+      
+      .iphone{
+        width: 75%;}
+      
+      
+      .postText h3{
+      font-size: 30px;
+      line-height: 50px;
+      }
+      
+      .postText p{
+      font-size: 12px;
+      line-height: 28px;
+      }
+      
+      .topHashtag h2{
+        font-size: 24px;
+        line-height: 30px;
+        width: 100%;
+      }
+      .topHashtag p{
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 2rem;
+        }
+      
+       
+        
+        .card{
+          height: 270px;
+          width: 100%;
+        }
+        
+        
+      .card img{
+      width: 20%;
+      padding-left: 1rem;
+      }
+      
+      card h5{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 34px;
+        padding: 1rem ;
+      }
+      
+      .card p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        padding:0 1rem;
+      }
+      
+      
+      
+      
+      .growthLeft p{
+      font-size: 12px;
+      }
+
+     
+      
+      .growthText p{
+      width: 70%;
+      }
+      
+      /* .hart{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin-left: 3rem;
+        margin-top: 0.5rem;
+      } */
+      
+
+      .hart{
+        width: 100%;
+      }
+      .hartImage {
+        width: 20%;
+      }
+      
+      .hartName{
+        width: 65%;
+      }
+      .hartName p{
+        width: 80%;
+        line-height: 20px;
+      }
+      
+      /* .brand{
+       flex-direction: column;
+        margin: auto;
+        width: 85%;
+        padding: 3rem;
+        margin-bottom: 5rem;
+      } */
+      
+      .brandLeft h3{
+      font-size: 24px;
+      /* font-weight: 700; */
+      line-height: 34px;
+      width: 100%;
+      
+      }
+      
+      .brandLeft p{
+      font-size: 12px;      
+      line-height: 26px;
+      margin-top: -0.5rem;
+      }
+      
+      .customers{
+       margin: 0.5rem 0;
+      }
+      
+      .brandRight{
+      width: 60%;
+      }
+      
+      .brandRight button{
+        font-size: 12px;
+        width: 100%;
+        font-size: 10px;
+         }
+      
+      
+      
+       .footLogo img{
+        width: 20%;
+       }
+      .footWrap {
+      flex-direction: column;
+      width: 85%;
+      }
+      
+      .footRight {
+        flex-direction: column;
+        width: 100%;
+        
+      }
+      .footLeft{
+        width: 100%;
+      }
+      
+      li{
+      font-size: 16px;
+      font-weight: 400;
+      }
+      
+      .footRight h4{  
+      font-size: 18px;
+      }
+      
+      .footLeft p{
+      font-size: 16px;
+      width: 80%;
+      }
+      
+      .copyright {
+        text-align: center;
+        margin-top: 4rem;
+      }
+      
+      .copyright p {
+      font-size: 16px;
+      }
+      
 
 
 
